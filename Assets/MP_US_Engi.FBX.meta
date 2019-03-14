@@ -1,0 +1,199 @@
+fileFormatVersion: 2
+guid: fbb8b92b2922048e0b0b42a30174491e
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Mesh_0018
+    100002: Mesh_0019
+    100004: Mesh_0021
+    100006: Mesh_0022
+    100008: Mesh_0023
+    100010: Mesh_0024
+    100012: Mesh_0027
+    100014: //RootNode
+    400000: Mesh_0018
+    400002: Mesh_0019
+    400004: Mesh_0021
+    400006: Mesh_0022
+    400008: Mesh_0023
+    400010: Mesh_0024
+    400012: Mesh_0027
+    400014: //RootNode
+    2100000: Tex_0018_1.dds
+    2100002: Tex_0022_1.dds
+    2100004: Tex_0024_1.dds
+    2100006: Tex_0027_1.dds
+    2100008: Tex_0019_1.dds
+    2100010: Tex_0021_1.dds
+    2300000: Mesh_0018
+    2300002: Mesh_0019
+    2300004: Mesh_0021
+    2300006: Mesh_0022
+    2300008: Mesh_0023
+    2300010: Mesh_0024
+    2300012: Mesh_0027
+    3300000: Mesh_0018
+    3300002: Mesh_0019
+    3300004: Mesh_0021
+    3300006: Mesh_0022
+    3300008: Mesh_0023
+    3300010: Mesh_0024
+    3300012: Mesh_0027
+    4300000: Mesh_0018
+    4300002: Mesh_0022
+    4300004: Mesh_0023
+    4300006: Mesh_0024
+    4300008: Mesh_0027
+    4300010: Mesh_0019
+    4300012: Mesh_0021
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_0018_1.dds
+    second: {fileID: 2100000, guid: 1d1ff085d35e341719dc5711d5affe35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_0019_1.dds
+    second: {fileID: 2100000, guid: ad81d9baec8c542529b4da76409e314b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_0021_1.dds
+    second: {fileID: 2100000, guid: 4a3f34c2034d74828bc2edcfd9ce40d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_0022_1.dds
+    second: {fileID: 2100000, guid: 41ba817ff0e0b4a48b3dec9184a8cb11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_0024_1.dds
+    second: {fileID: 2100000, guid: 7eb524c8a525a463f8d73bd6b0222608, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_0027_1.dds
+    second: {fileID: 2100000, guid: fbe02fbe122354bce89da6942c95858f, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton:
+    - name: MP_US_Engi(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mesh_0018
+      parentName: MP_US_Engi(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mesh_0019
+      parentName: MP_US_Engi(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mesh_0021
+      parentName: MP_US_Engi(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mesh_0022
+      parentName: MP_US_Engi(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mesh_0023
+      parentName: MP_US_Engi(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mesh_0024
+      parentName: MP_US_Engi(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mesh_0027
+      parentName: MP_US_Engi(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

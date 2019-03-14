@@ -469,7 +469,9 @@ namespace Invector.vCharacterController.AI
 
         public virtual void Shot()
         {
-            if (isDead || !shooterManager || !shooterManager.currentWeapon) return;
+            if (isDead || !shooterManager || !shooterManager.currentWeapon) {
+                //FindObjectOfType<GameManager>().OnenemyDie();
+                return; }
 
             if (CanShot && !IsReloading && !waitingReload && inShotDelay && CanAim && IsValidAim && IsAiming)
             {

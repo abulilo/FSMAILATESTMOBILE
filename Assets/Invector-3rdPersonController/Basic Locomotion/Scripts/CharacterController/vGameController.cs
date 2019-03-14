@@ -14,7 +14,7 @@ namespace Invector
         [Tooltip("Assign the Character Prefab to instantiate at the SpawnPoint, leave unassign to Restart the Scene")]
         public GameObject playerPrefab;
         [Tooltip("Time to wait until the scene restart or the player will be spawned again")]
-        public float respawnTimer = 4f;
+        public float respawnTimer = 15f;
         [Tooltip("Check if you want to leave your dead body at the place you died")]
         public bool destroyBodyAfterDead;
         [HideInInspector]
@@ -26,10 +26,12 @@ namespace Invector
         private GameObject oldPlayer;
         public bool displayInfoInFadeText = true;
 
+
+
         void Start()
-        {
+        { 
             if (instance == null)
-            {
+            { 
                 instance = this;
                 DontDestroyOnLoad(this.gameObject);
                 this.gameObject.name = gameObject.name + " Instance";
@@ -46,6 +48,7 @@ namespace Invector
             FindPlayer();
         }
 
+       
         public void OnCharacterDead(GameObject _gameObject)
         {
             oldPlayer = _gameObject;
@@ -54,9 +57,12 @@ namespace Invector
                 StartCoroutine(Spawn());
             else
             {
+                FindObjectOfType<GameManager>().GameOver();
                 if (displayInfoInFadeText && vHUDController.instance)
                     vHUDController.instance.ShowText("Restarting Scene...");
-                Invoke("ResetScene", respawnTimer);
+                 //Invoke("ResetScene", respawnTimer);
+                // FindObjectOfType<GameManager>().GameOver();
+
             }
         }
 
@@ -156,16 +162,18 @@ namespace Invector
 
         public void ResetScene()
         {
+           // FindObjectOfType<GameManager>().GameOver();
             if (oldPlayer)
                 DestroyPlayerComponents(oldPlayer);
-
+           
             var scene = SceneManager.GetActiveScene();
-            SceneManager.LoadScene(scene.name);
+           SceneManager.LoadScene(scene.name);
 
             if (oldPlayer && destroyBodyAfterDead)
             {
                 Destroy(oldPlayer);
             }
+            FindObjectOfType<GameManager>().GameOver();
         }
 
         private void DestroyPlayerComponents(GameObject target)
